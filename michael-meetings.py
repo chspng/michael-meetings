@@ -18,6 +18,10 @@
 #	3. Generate x lists, step through start-point by y
 #	4. Randomize order of x lists
 
+# to do:
+#	1. format output to separate pairs onto their own lines
+# 	2. ensure that pairs are distant and everyone has spot in every "slot" if possible (can use 'extra' iterations for this)
+
 #!/bin/python3
 import random
 
@@ -73,4 +77,5 @@ def michaelmeetings( classlist, numberoflists ):
 # function call
 michaelmeetings("class-list.txt", 9)
 
-# test cases
+# add test cases
+
