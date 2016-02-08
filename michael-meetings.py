@@ -48,7 +48,7 @@ def michaelmeetings( classlist, numberoflists ):
 	random.shuffle(startpoints)
 
 	# generate ordered lists & output
-	weekcount = 1
+	weekcount = 1 # the number of startpoints should equal the numberoflists
 
 	for start in startpoints:
 		filename = "week" + str(weekcount) + "-name-list.txt"
